@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<rss version="2.0"
+     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>HyperArc</title>
+    <link>https://raw.githubusercontent.com/curiositymaker/hyperarc-releases/main/appcast.xml</link>
+    <description>HyperArc release feed</description>
+    <language>en</language>
+    <!-- Release <item> entries are prepended here by apps/desktop/release.sh -->
+  </channel>
+</rss>

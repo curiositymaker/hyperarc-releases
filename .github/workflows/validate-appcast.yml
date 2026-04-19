@@ -1,0 +1,26 @@
+name: Validate appcast
+
+on:
+  pull_request:
+    paths: [appcast.xml]
+  push:
+    branches: [main]
+    paths: [appcast.xml]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install xmllint
+        run: sudo apt-get update && sudo apt-get install -y libxml2-utils
+
+      - name: Lint XML
+        run: xmllint --noout appcast.xml
+
+      - name: Verify Sparkle namespace is present
+        run: grep -q 'xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"' appcast.xml
+
+      - name: Verify channel tag is present
+        run: grep -q '<channel>' appcast.xml
