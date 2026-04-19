@@ -3,7 +3,21 @@
      xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>HyperArc</title>
+    
+    <item>
+      <title>Version 1.0.1</title>
+      <pubDate>Sun, 19 Apr 2026 23:12:20 +0000</pubDate>
+      <sparkle:version>10001</sparkle:version>
+      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>Public Release</p>]]></description>
+      <enclosure
+        url="https://github.com/curiositymaker/hyperarc-releases/releases/download/v1.0.1/HyperArc.dmg"
+        sparkle:edSignature="ak556E6AEUk64ESE3k3QqwBbgAa5h+ctSQ2yw8T29jk4av7toEs72pestBe8z4tQkoHYZCO+0VpuyzEBLrWKAw=="
+        length="1907146"
+        type="application/octet-stream" />
+    </item>
+<title>HyperArc</title>
     <link>https://raw.githubusercontent.com/curiositymaker/hyperarc-releases/main/appcast.xml</link>
     <description>HyperArc release feed</description>
     <language>en</language>
