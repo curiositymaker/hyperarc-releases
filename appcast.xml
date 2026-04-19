@@ -4,7 +4,21 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     
+    
     <item>
+      <title>Version 1.0.2</title>
+      <pubDate>Sun, 19 Apr 2026 23:28:24 +0000</pubDate>
+      <sparkle:version>10002</sparkle:version>
+      <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>Public Release</p>]]></description>
+      <enclosure
+        url="https://github.com/curiositymaker/hyperarc-releases/releases/download/v1.0.2/HyperArc.dmg"
+        sparkle:edSignature="2OSN0cGCDjDYsnrLeVMEE9o80fpLSiaXE8roXQ048bMTeAhwqVOVdkjkCT/osyxesavWN7E+r/sZDrzS1ZeqDg=="
+        length="1451277"
+        type="application/octet-stream" />
+    </item>
+<item>
       <title>Version 1.0.1</title>
       <pubDate>Sun, 19 Apr 2026 23:12:20 +0000</pubDate>
       <sparkle:version>10001</sparkle:version>
