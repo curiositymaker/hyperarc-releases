@@ -5,7 +5,21 @@
   <channel>
     
     
+    
     <item>
+      <title>Version 1.0.3</title>
+      <pubDate>Wed, 27 May 2026 18:57:03 +0000</pubDate>
+      <sparkle:version>10003</sparkle:version>
+      <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>Removed the global keyboard shortcut (⌥ Space) and accessibility permission prompt. HyperArc no longer requires Accessibility access — open it from the Dock or menu bar.</p>]]></description>
+      <enclosure
+        url="https://github.com/curiositymaker/hyperarc-releases/releases/download/v1.0.3/HyperArc.dmg"
+        sparkle:edSignature="JX7FF0+IfBhiZwWOkm2ZFa5BAsZCdYECaE4hL0jg/2gRhtBo7iPbVuJIRxfSpvyQbaYehNecxlX1bsbCsKjnCw=="
+        length="2813594"
+        type="application/octet-stream" />
+    </item>
+<item>
       <title>Version 1.0.2</title>
       <pubDate>Sun, 19 Apr 2026 23:28:24 +0000</pubDate>
       <sparkle:version>10002</sparkle:version>
