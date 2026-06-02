@@ -7,7 +7,25 @@
     
     
     
+    
     <item>
+      <title>Version 1.0.5</title>
+      <pubDate>Tue, 02 Jun 2026 19:31:48 +0000</pubDate>
+      <sparkle:version>10005</sparkle:version>
+      <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>What's new in HyperArc 1.0.5
+
+• New: anonymous usage analytics — counts and timings only, no file names or personal data. Opt out anytime in Settings → Privacy → Share anonymous usage data.
+• New: General settings now actually work — Launch at login, Menu bar icon, and Use cached searches are persistent toggles.
+• Improvement: structured error reporting for faster diagnosis when scans hit an issue.</p>]]></description>
+      <enclosure
+        url="https://github.com/curiositymaker/hyperarc-releases/releases/download/v1.0.5/HyperArc.dmg"
+        sparkle:edSignature="A3D92pDQvgt+JUDOb4t9ESX/yXYng0drmcCJoNg+ix3NyEmGS/FQtA5ArDOQ8R0ZZDc6aPUcNeLRdHx+dHDjBA=="
+        length="3486965"
+        type="application/octet-stream" />
+    </item>
+<item>
       <title>Version 1.0.4</title>
       <pubDate>Tue, 02 Jun 2026 18:31:14 +0000</pubDate>
       <sparkle:version>10004</sparkle:version>
