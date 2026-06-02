@@ -6,7 +6,26 @@
     
     
     
+    
     <item>
+      <title>Version 1.0.4</title>
+      <pubDate>Tue, 02 Jun 2026 18:31:14 +0000</pubDate>
+      <sparkle:version>10004</sparkle:version>
+      <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>• Add Files screen now shows live per-file progress with inline Retry for failures
+• Overall vs current-file progress side by side
+• Settings split per format: video/audio segment length, PDF pages-per-request, image notes, concurrent requests
+• Fixed MP3 scanning (was failing due to AVFoundation passthrough)
+• Library: Search-in-folder and Rescan buttons now wired
+• Search filter bar is always visible</p>]]></description>
+      <enclosure
+        url="https://github.com/curiositymaker/hyperarc-releases/releases/download/v1.0.4/HyperArc.dmg"
+        sparkle:edSignature="6lMSWCTfYF+80Cnf2PaXmxtdWf/rAid4mHjCeuO7m1kxK9jY152G9dmx6zwXthI+I7a5DoWpegeZFJDk3E6uDg=="
+        length="2935114"
+        type="application/octet-stream" />
+    </item>
+<item>
       <title>Version 1.0.3</title>
       <pubDate>Wed, 27 May 2026 18:57:03 +0000</pubDate>
       <sparkle:version>10003</sparkle:version>
